@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrightSmile Dental Clinic</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">BrightSmile</div>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero-section">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h1>Your Smile, Our Passion</h1>
+          <p>Expert dental care with comfort and compassion</p>
+          <a href="#contact" class="btn">Book Appointment</a>
+        </div>
+      </div>
+    </section>
+    
+    
+  </header>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Teeth Cleaning</h3>
+        <p>Professional hygiene services for a brighter smile.</p>
+      </div>
+      <div class="card">
+        <h3>Cosmetic Dentistry</h3>
+        <p>Whitening, veneers, and more to improve your smile.</p>
+      </div>
+      <div class="card">
+        <h3>Orthodontics</h3>
+        <p>Invisalign and braces to align your teeth perfectly.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="about" class="about">
+    <div class="about-container">
+      <h2>About Us</h2>
+      <p>
+        BrightSmile Dental Clinic is dedicated to providing top-quality dental care with a gentle touch. Our experienced staff and modern facilities ensure that you receive the best treatment in a calm, relaxing environment.
+      </p>
+    </div>
+  </section>
+
+  <section id="counter" class="counter-section">
+    <div class="counter-container">
+      <div class="counter-item">
+        <h3 id="customer-count" class="counter">0</h3>
+        <p>Happy Customers</p>
+      </div>
+      <div class="counter-item">
+        <h3 id="experience-count" class="counter">0</h3>
+        <p>Years of Experience</p>
+      </div>
+    </div>
+  </section>
+  
+  
+  <section id="contact" class="contact">
+    <div class="contact-container">
+      <div class="contact-left">
+        <div class="image-overlay">
+          <img src="https://i.pinimg.com/736x/cb/9d/ff/cb9dff93587ebc0a01b45c2b73276f62.jpg" alt="Doctor Image" class="doctor-image" />
+        </div>
+      </div>
+  
+      <div class="contact-right">
+        <h2>Book Your Visit</h2>
+        <p>
+          Call us at <strong>+1 (123) 456-7890</strong><br />
+          or email <a href="mailto:info@brightsmile.com">info@brightsmile.com</a>
+        </p>
+        
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Phone Number" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn contact-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+
+  <section id="testimonials" class="testimonials">
+    <h2>What Our Patients Say</h2>
+    <div class="testimonial-slider">
+      <div class="testimonial active">
+        <p>"BrightSmile gave me my confidence back! The staff is so friendly and professional."</p>
+        <h4>— Sarah L.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Great experience every time. Clean, modern facility and expert care."</p>
+        <h4>— John M.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"The orthodontic team is amazing. I love my new smile!"</p>
+        <h4>— Priya R.</h4>
+      </div>
+      <div class="testimonial">
+        <p>"Painless procedures and they always make me feel calm and comfortable."</p>
+        <h4>— Alex G.</h4>
+      </div>
+    </div>
+  </section>
+  
+  <section id="location" class="map-section">
+    <div class="container">
+      <h2>Find Us Here</h2>
+      <div class="map-embed">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d14874.909007606639!2d81.59567235202591!3d21.242661587368683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d21.253324799999998!2d81.608704!4m5!1s0x3a28dddf05c10a5f%3A0x4b80e32e1ea7c3b4!2s54%2F1320%2C%20Swadha%20Dental%20Care%2C%20Near%2C%20Gol%20Chowk%2C%20DDU%20Nagar%2C%20Main%20Road%2C%20Raipur%2C%20Chhattisgarh%20492010!3m2!1d21.2329847!2d81.6000663!5e0!3m2!1sen!2sin!4v1746433942047!5m2!1sen!2sin" 
+          width="100%" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <footer>
+    <p>&copy; 2025 BrightSmile Dental Clinic | Designed with care</p>
+  </footer>
+
+
+  <script>
+    const toggleBtn = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+  
+    toggleBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+
+    const testimonials = document.querySelectorAll('.testimonial');
+  let current = 0;
+
+  function showNextTestimonial() {
+    testimonials[current].classList.remove('active');
+    current = (current + 1) % testimonials.length;
+    testimonials[current].classList.add('active');
+  }
+
+  setInterval(showNextTestimonial, 4000); // change every 4 seconds
+
+  
+
+  </script>
+  
+  <script>
+    window.onload = function() {
+      const customerCount = document.getElementById("customer-count");
+      const experienceCount = document.getElementById("experience-count");
+  
+      let customerStart = 0;
+      let experienceStart = 0;
+  
+      const customerEnd = 5000; // Adjust for actual data
+      const experienceEnd = 15; // Adjust for actual data
+  
+      const customerDuration = 2000; // Counter duration in milliseconds
+      const experienceDuration = 2000;
+  
+      // Function to animate the counter
+      function animateCounter(element, start, end, duration) {
+        const range = end - start;
+        const increment = range / (duration / 10); // How much to increment every 10ms
+        let current = start;
+  
+        function updateCounter() {
+          current += increment;
+          if (current >= end) {
+            element.textContent = end;
+          } else {
+            element.textContent = Math.floor(current);
+            requestAnimationFrame(updateCounter); // Continue animation
+          }
+        }
+  
+        updateCounter(); // Start animation
+      }
+  
+      // Start counters
+      animateCounter(customerCount, customerStart, customerEnd, customerDuration);
+      animateCounter(experienceCount, experienceStart, experienceEnd, experienceDuration);
+    };
+  </script>
+  
+
+</body>
+</html>
